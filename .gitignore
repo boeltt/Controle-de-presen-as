@@ -1,0 +1,32 @@
+# Compilados Java
+*.class
+
+# Diretórios de build
+/target/
+bin/
+
+# Arquivos Maven
+.log
+.mvn/
+!**/src/main/**/.keep
+
+# Arquivos do Eclipse
+*.launch
+*.classpath
+*.project
+.settings/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivo do banco SQLite
+*.db
+
+# Relatórios exportados
+*.pdf
+
+# Configs locais
+.idea/
+*.iml
+.vscode/
